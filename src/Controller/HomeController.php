@@ -23,6 +23,8 @@ class HomeController extends MainController
      */
     public function defaultMethod()
     {
-        return $this->render('home.twig');
+        $allUsers = ModelFactory::getModel('User')->listData();
+
+        return $this->render('home.twig', ['allUsers' => $allUsers]);
     }
 }
