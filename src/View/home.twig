@@ -1,48 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'layout/layout.twig' %}
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport"               content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+{% block subtitle %}Home{% endblock %}
 
-    <title>{% block title %}Home - PHP MVC{% endblock %}</title>
+{% block description %}Homepage of the PHP-MVC project{% endblock %}
 
-    <link rel="canonical" href="{% block canonical %}https://php-mvc.philippebeck.net{% endblock %}">
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-
-    <meta name="description"                content="{% block description %}Homepage of the PHP-MVC project{% endblock %}">
-    <meta name="author"                     content="Philippe Beck">
-    <meta name="copyright"                  content="MIT">
-
-    <meta property="og:type"        content="website">
-    <meta property="og:title"       content="{{ block('title') }}">
-    <meta property="og:url"         content="{{ block('canonical') }}">
-    <meta property="og:description" content="{{ block('description') }}">
-    <meta property="og:image"       content="{% block image %}https://php-mvc.philippebeck.net/img/bg.jpg{% endblock %}">
-
-    <meta name="twitter:card"           content="summary">
-    <meta name="twitter:title"          content="{{ block('title') }}">
-    <meta name="twitter:site"           content="{{ block('canonical') }}">
-    <meta name="twitter:description"    content="{{ block('description') }}">
-    <meta name="twitter:image"          content="{{ block('image') }}">
-    <meta name="twitter:creator"        content="@philippepjbeck">
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Text+Me+One%7cCinzel:400,700,900%7cShare+Tech+Mono">
-    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-    <header>
-        <h1>
-            <i class="fab fa-php fa-fw fa-lg" aria-hidden="true"></i>
-            PHP-MVC
-        </h1>
-    </header>
-
-    <main>
+{% block main %}
+    <main id="home">
         <section>
             <h2>Introduction</h2>
 
@@ -64,9 +27,4 @@
             </ul>
         </section>
     </main>
-
-    <footer>
-        <a href="https://github.com/philippebeck/php-mvc/blob/master/LICENSE">MIT 2019 - Philippe Beck</a>
-    </footer>
-</body>
-</html>
+{% endblock %}
