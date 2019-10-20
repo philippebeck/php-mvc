@@ -1,0 +1,25 @@
+{
+  "name": "php-mvc",
+  "description": "Instructional Template to start a Web Application with a PHP MVC Architecture",
+  "keywords": [
+    "pedagogic",
+    "template",
+    "web",
+    "application",
+    "php",
+    "mvc"
+  ],
+  "license": "MIT",
+  "main": "index.php",
+  "homepage": "https://philippebeck.net",
+  "repository": "github:philippebeck/php-mvc",
+  "bugs": "https://github.com/philippebeck/php-mvc/issues",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2"
+  },
+  "author": {
+    "name": "Philippe Beck",
+    "email": "philippe@philippebeck.net",
+    "url": "https://philippebeck.net"
+  }
+}
