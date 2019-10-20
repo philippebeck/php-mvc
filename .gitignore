@@ -1,0 +1,20 @@
+# Project Indexes of Jetbrains Apps
+.idea/
+
+# DB Connection Informations (uncomment when you start using the template)
+# config/db.php
+
+# DB Datas (uncomment when you start using the template)
+# config/db.sql
+
+# Fonts
+public/font
+
+# Pictures
+public/img/
+
+# Frontend Dependencies
+public/node_modules/
+
+# PHP Dependencies
+vendor/

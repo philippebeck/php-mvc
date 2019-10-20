@@ -1,0 +1,47 @@
+{
+  "name": "philippebeck/php-mvc",
+  "version": "0.1.0",
+  "type": "project",
+  "description": "Instructional Template to start a Web Application with a PHP MVC Architecture",
+  "keywords": [
+    "pedagogic",
+    "template",
+    "web",
+    "application",
+    "php",
+    "mvc"
+  ],
+  "homepage": "https://php-mvc.philippebeck.net",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Philippe Beck",
+      "email": "philippe@philippebeck.net",
+      "homepage": "https://philippebeck.net",
+      "role": "Lead Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "php": "7.2",
+    "twig/twig": "^2.12.1"
+  },
+  "require-dev": {
+    "tracy/tracy": "^2.7.0"
+  },
+  "config": {
+    "platform": {
+      "php": "7.2"
+    }
+  },
+  "support": {
+    "email": "admin@philippebeck.net",
+    "issues": "https://github.com/philippebeck/php-mvc/issues",
+    "wiki": "https://github.com/philippebeck/php-mvc/wiki",
+    "source": "https://github.com/philippebeck/php-mvc"
+  }
+}
