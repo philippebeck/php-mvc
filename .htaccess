@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+    Options +FollowSymLinks -Multiviews
+
+    RewriteEngine on
+    RewriteBase /
+
+    # Force https
+    RewriteCond %{REQUEST_SCHEME} =http
+    RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+    # Force non-www
+    RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+    RewriteRule ^(.*)$ https://%1/$1 [NE,R=301,L]
+
+    # Remove public/
+    RewriteCond %{REQUEST_URI} !/public/ [NC]
+    RewriteRule ^(.*?)/?$ public/$1 [L]
+</IfModule>
