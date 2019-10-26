@@ -36,7 +36,7 @@ Wiki presents the procedure to create your own PHP MVC application with this exa
 
 [![Packagist Version](https://img.shields.io/packagist/v/philippebeck/php-mvc.svg?label=Packagist)](https://packagist.org/packages/philippebeck/php-mvc)
 
-Composer : `composer require philippebeck/php-mvc`  
+Composer : `composer create-project philippebeck/php-mvc`  
 
 ---
 
