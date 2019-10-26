@@ -17,7 +17,7 @@ class Router
     /**
      * Default controller
      */
-    const DEFAULT_CONTROLLER = 'DefaultController';
+    const DEFAULT_CONTROLLER = 'HomeController';
 
     /**
      * Default method
