@@ -17,7 +17,7 @@ class Router
     /**
      * Default controller
      */
-    const DEFAULT_CONTROLLER = 'DefaultController';
+    const DEFAULT_CONTROLLER = 'HomeController';
 
     /**
      * Default method
@@ -60,7 +60,7 @@ class Router
 
         $access             = explode('!', $access);
         $this->controller   = $access[0];
-        $this->method       = count($access) == 1 ? 'index' : $access[1];
+        $this->method       = count($access) == 1 ? 'default' : $access[1];
     }
 
     /**

@@ -1,6 +1,6 @@
 {
   "name": "philippebeck/php-mvc",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "type": "project",
   "description": "Instructional Template to start a Web Application with a PHP MVC Architecture",
   "keywords": [
