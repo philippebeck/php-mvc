@@ -8,7 +8,7 @@
 # config/db.sql
 
 # Fonts
-public/font
+public/font/
 
 # Pictures
 public/img/
