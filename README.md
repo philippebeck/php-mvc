@@ -55,7 +55,7 @@ Composer : `composer create-project philippebeck/php-mvc`
 
 php-mvc has continuous support !
 
-[![Project Maintained](https://img.shields.io/maintenance/yes/2019.svg?label=Maintained)](https://github.com/philippebeck/php-mvc)
+[![Project Maintained](https://img.shields.io/maintenance/yes/2020.svg?label=Maintained)](https://github.com/philippebeck/php-mvc)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/philippebeck/php-mvc.svg?label=Last+Commit)](https://github.com/philippebeck/php-mvc/commits/master)
 
 ---
