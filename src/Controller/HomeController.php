@@ -25,6 +25,6 @@ class HomeController extends MainController
     {
         $allUsers = ModelFactory::getModel('User')->listData();
 
-        return $this->render('home.twig', ['allUsers' => $allUsers]);
+        return $this->twig->render('home.twig', ['allUsers' => $allUsers]);
     }
 }

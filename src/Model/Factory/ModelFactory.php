@@ -2,7 +2,7 @@
 
 namespace App\Model\Factory;
 
-use App\Model\PDOModel;
+use App\Model\PdoDb;
 
 /**
  * Class ModelFactory
@@ -30,7 +30,7 @@ class ModelFactory
         }
 
         $class                  = 'App\Model\\' . ucfirst($table) . 'Model';
-        self::$models[$table]   = new $class(new PDOModel(PDOFactory::getPDO()));
+        self::$models[$table]   = new $class(new PdoDb(PdoFactory::getPDO()));
 
         return self::$models[$table];
     }

@@ -5,11 +5,11 @@ namespace App\Model;
 use PDO;
 
 /**
- * Class PDOModel
+ * Class PdoDb
  * Prepares Queries before execution & return
  * @package App\Model
  */
-class PDOModel
+class PdoDb
 {
     /**
      * PDO Connection
@@ -18,7 +18,7 @@ class PDOModel
     private $pdo;
 
     /**
-     * PDOModel constructor
+     * PdoDb constructor
      * Receive the PDO Connection & store it
      * @param PDO $pdo
      */
