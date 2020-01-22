@@ -2,12 +2,10 @@
 
 namespace App\Controller;
 
-use App\Controller\Extension\PhpMvcExtension;
 use Twig\Environment;
 use Twig\Error\LoaderError;
 use Twig\Error\RuntimeError;
 use Twig\Error\SyntaxError;
-use Twig\Extension\DebugExtension;
 use Twig\Loader\FilesystemLoader;
 
 /**
@@ -28,12 +26,7 @@ abstract class MainController
      */
     public function __construct()
     {
-        $this->twig = new Environment(new FilesystemLoader('../src/View'), array(
-            'cache' => false,
-            'debug' => true
-        ));
-        $this->twig->addExtension(new DebugExtension());
-        $this->twig->addExtension(new PhpMvcExtension());
+        $this->twig = new Environment(new FilesystemLoader('../src/View'), array('cache' => false));
     }
 
     /**
