@@ -5,11 +5,11 @@ namespace App\Model\Factory;
 use PDO;
 
 /**
- * Class PDOFactory
+ * Class PdoFactory
  * Creates the Connection if it doesn't exist
  * @package App\Model
  */
-class PDOFactory
+class PdoFactory
 {
     /**
      * Stores the Connection

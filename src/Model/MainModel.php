@@ -11,7 +11,7 @@ abstract class MainModel
 {
     /**
      * Database
-     * @var PDOModel
+     * @var PdoDb
      */
     protected $database = null;
 
@@ -24,9 +24,9 @@ abstract class MainModel
     /**
      * Model constructor
      * Receives the Database Object & creates the Table Name
-     * @param PDOModel $database
+     * @param PdoDb $database
      */
-    public function __construct(PDOModel $database)
+    public function __construct(PdoDb $database)
     {
         $this->database = $database;
         $model          = explode('\\', get_class($this));
