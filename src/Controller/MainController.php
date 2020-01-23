@@ -27,26 +27,14 @@ abstract class MainController
     }
 
     /**
-     * Returns the Page URL
-     * @param string $page
-     * @param array $params
-     * @return string
-     */
-    public function url(string $page, array $params = [])
-    {
-        $params['access'] = $page;
-
-        return 'index.php?' . http_build_query($params);
-    }
-
-    /**
      * Redirects to another URL
      * @param string $page
      * @param array $params
      */
     public function redirect(string $page, array $params = [])
     {
-        header('Location: ' . $this->url($page, $params));
+        $params['access'] = $page;
+        header('Location: index.php?' . http_build_query($params));
 
         exit;
     }
