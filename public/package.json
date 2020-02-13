@@ -15,7 +15,7 @@
   "repository": "github:philippebeck/php-mvc",
   "bugs": "https://github.com/philippebeck/php-mvc/issues",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.12.0"
+    "@fortawesome/fontawesome-free": "^5.12.1"
   },
   "author": {
     "name": "Philippe Beck",
