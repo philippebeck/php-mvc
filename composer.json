@@ -30,9 +30,6 @@
     "php": "7.2",
     "twig/twig": "^2.12.3"
   },
-  "require-dev": {
-    "tracy/tracy": "^2.7.2"
-  },
   "config": {
     "platform": {
       "php": "7.2"
