@@ -6,7 +6,7 @@
     <meta name="viewport"               content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible"  content="IE=edge">
 
-    <title>{% block title %}{{ block('subtitle') }} - PHP MVC{% endblock %}</title>
+    <title>{{ block('title') }}</title>
 
     <link rel="canonical" href="{% block canonical %}https://php-mvc.philippebeck.net{% endblock %}">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
@@ -45,8 +45,6 @@
     {% block main %}{% endblock %}
 
     {{ include('layout/footer.twig') }}
-
-    <script src="js/script.js"></script>
 
 </body>
 </html>
