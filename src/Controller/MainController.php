@@ -23,7 +23,7 @@ abstract class MainController
      */
     public function __construct()
     {
-        $this->twig = new Environment(new FilesystemLoader('../src/View'), array('cache' => false));
+        $this->twig = new Environment(new FilesystemLoader("../src/View"), array("cache" => false));
     }
 
     /**
@@ -33,8 +33,8 @@ abstract class MainController
      */
     public function redirect(string $page, array $params = [])
     {
-        $params['access'] = $page;
-        header('Location: index.php?' . http_build_query($params));
+        $params["access"] = $page;
+        header("Location: index.php?" . http_build_query($params));
 
         exit;
     }
