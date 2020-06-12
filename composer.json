@@ -1,6 +1,6 @@
 {
   "name": "philippebeck/php-mvc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "project",
   "description": "Instructional Template to start a Web Application with a PHP MVC Architecture",
   "keywords": [
@@ -27,12 +27,12 @@
     }
   },
   "require": {
-    "php": "7.2",
-    "twig/twig": "^2.12.5"
+    "php": "7.3",
+    "twig/twig": "^3.0.3"
   },
   "config": {
     "platform": {
-      "php": "7.2"
+      "php": "7.3"
     }
   },
   "support": {
