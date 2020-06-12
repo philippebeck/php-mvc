@@ -12,17 +12,17 @@ class Router
     /**
      * Default path to all controllers
      */
-    const DEFAULT_PATH = 'App\Controller\\';
+    const DEFAULT_PATH = "App\Controller\\";
 
     /**
      * Default controller
      */
-    const DEFAULT_CONTROLLER = 'HomeController';
+    const DEFAULT_CONTROLLER = "HomeController";
 
     /**
      * Default method
      */
-    const DEFAULT_METHOD = 'defaultMethod';
+    const DEFAULT_METHOD = "defaultMethod";
 
     /**
      * Requested Controller
@@ -52,15 +52,15 @@ class Router
      */
     public function parseUrl()
     {
-        $access = filter_input(INPUT_GET, 'access');
+        $access = filter_input(INPUT_GET, "access");
 
         if (!isset($access)) {
-            $access = 'home';
+            $access = "home";
         }
 
-        $access             = explode('!', $access);
+        $access             = explode("!", $access);
         $this->controller   = $access[0];
-        $this->method       = count($access) == 1 ? 'default' : $access[1];
+        $this->method       = count($access) == 1 ? "default" : $access[1];
     }
 
     /**
@@ -68,7 +68,7 @@ class Router
      */
     public function setController()
     {
-        $this->controller = ucfirst(strtolower($this->controller)) . 'Controller';
+        $this->controller = ucfirst(strtolower($this->controller)) . "Controller";
         $this->controller = self::DEFAULT_PATH . $this->controller;
 
         if (!class_exists($this->controller)) {
@@ -81,7 +81,7 @@ class Router
      */
     public function setMethod()
     {
-        $this->method = strtolower($this->method) . 'Method';
+        $this->method = strtolower($this->method) . "Method";
 
         if (!method_exists($this->controller, $this->method)) {
             $this->method = self::DEFAULT_METHOD;

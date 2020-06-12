@@ -1,16 +1,16 @@
 /* Add your custom style here */
 body {
-    background-image: url("../img/bg.jpg");
-    text-align: center;
+  background-image: url("../img/bg.jpg");
+  text-align: center;
 }
 
 main {
-    padding: 10px;
-    background-color: white;
+  padding: 10px;
+  background-color: white;
 }
 
 ul {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
 }
