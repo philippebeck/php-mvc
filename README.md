@@ -9,15 +9,12 @@ Instructional Template to start a Web Application with a PHP MVC Architecture
 
 This project is a pedagogic template to start a Web application with a PHP MVC architecture...
 
-A package is available to get the project easily.
-
 Issues presents what steps are necessary to build it.
 
 Wiki presents the procedure to create your own PHP MVC application with this example.
 
 ## Summary
 
--   [Package Manager](#package-manager)  
 -   [Download](#download)  
 -   [Support](#support)  
 -   [Open-Source](#open-source)  
@@ -28,15 +25,6 @@ Wiki presents the procedure to create your own PHP MVC application with this exa
 -   [Versioning](#versioning)  
 -   [Creator](#creator)  
 -   [Copyright](#copyright)  
--   [Support on Beerpay](#support-on-beerpay)  
-
----
-
-## Package Manager
-
-[![Packagist Version](https://img.shields.io/packagist/v/philippebeck/php-mvc.svg?label=Packagist)](https://packagist.org/packages/philippebeck/php-mvc)
-
-Composer : `composer create-project philippebeck/php-mvc`  
 
 ---
 
@@ -52,9 +40,9 @@ Composer : `composer create-project philippebeck/php-mvc`
 
 ## Support
 
-php-mvc has continuous support !
+php-mvc has no continuous support !
 
-[![Project Maintained](https://img.shields.io/maintenance/yes/2020.svg?label=Maintained)](https://github.com/philippebeck/php-mvc)
+[![Project Maintained](https://img.shields.io/maintenance/no/2020.svg?label=Maintained)](https://github.com/philippebeck/php-mvc)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/philippebeck/php-mvc.svg?label=Last+Commit)](https://github.com/philippebeck/php-mvc/commits/master)
 
 ---
@@ -120,12 +108,3 @@ Philippe Beck
 Code released under the MIT License
 
 [![GitHub License](https://img.shields.io/github/license/philippebeck/php-mvc.svg?label=License)](https://github.com/philippebeck/php-mvc/blob/master/LICENSE)
-
----
-
-## Support on Beerpay
-
-Hey dude! Help me out for a couple of :beers:!
-
-[![Beerpay](https://beerpay.io/philippebeck/php-mvc/badge.svg?style=beer-square)](https://beerpay.io/philippebeck/php-mvc)  
-[![Beerpay](https://beerpay.io/philippebeck/php-mvc/make-wish.svg?style=flat-square)](https://beerpay.io/philippebeck/php-mvc?focus=wish)
