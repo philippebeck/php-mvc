@@ -2,9 +2,6 @@
 
 Instructional Template to start a Web Application with a PHP MVC Architecture
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/79c90e07e0394f3c9c2ef9ada6ee68c6)](https://www.codacy.com/manual/philippebeck/php-mvc?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=philippebeck/php-mvc&amp;utm_campaign=Badge_Grade)
-[![Maintainability](https://api.codeclimate.com/v1/badges/640bf1e35b073f388cea/maintainability)](https://codeclimate.com/github/philippebeck/php-mvc/maintainability)
-
 ## Overview
 
 This project is a pedagogic template to start a Web application with a PHP MVC architecture...
